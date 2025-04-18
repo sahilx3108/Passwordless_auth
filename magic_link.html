@@ -1,0 +1,39 @@
+<!-- magic_link.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Magic Link Authentication</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gradient-to-br from-purple-50 to-pink-100 text-gray-900 min-h-screen">
+<header class="bg-white shadow sticky top-0 z-50">
+<div class="container mx-auto px-4 py-6 flex justify-between items-center">
+<h1 class="text-2xl font-bold text-indigo-700">Passwordless Auth</h1>
+<nav class="space-x-4"><a class="mx-2 text-blue-600 hover:underline" href="index.html">Home</a><a class="mx-2 text-blue-600 hover:underline" href="otp.html">OTP</a><a class="mx-2 text-blue-600 hover:underline" href="magic_link.html">Magic Link</a><a class="mx-2 text-blue-600 hover:underline" href="biometrics.html">Biometrics</a><a class="mx-2 text-blue-600 hover:underline" href="device_auth.html">Device Auth</a><a class="mx-2 text-blue-600 hover:underline" href="resources.html">Resources</a><a class="mx-2 text-blue-600 hover:underline" href="login.html">Login</a><a class="mx-2 text-blue-600 hover:underline" href="signup.html">Sign Up</a></nav>
+</div>
+</header>
+<main class="container mx-auto px-4 py-16">
+<h2 class="text-4xl font-bold text-indigo-700 mb-6">Magic Link Authentication</h2>
+<p class="text-lg mb-4 text-gray-700">Magic links are emailed to the user, allowing them to click and authenticate without entering a password.</p>
+<ul class="list-disc list-inside text-gray-700 mb-6">
+<li><strong>Pros:</strong> Very user-friendly, no password management</li>
+<li><strong>Cons:</strong> Relies on email security</li>
+<li><strong>Use Cases:</strong> Email-based login flows</li>
+<li><strong>Security Notes:</strong> Ensure link expiration and one-time usage</li>
+</ul>
+
+<section class="my-12">
+<h3 class="text-xl font-semibold text-indigo-800 mb-4">Try the Demo</h3>
+<button class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700" onclick="alert('Demo triggered!')">
+    Launch Demo
+  </button>
+</section>
+</main>
+<footer class="bg-white border-t mt-12 py-6 text-center text-sm text-gray-500">
+    © 2025 Passwordless Auth. All rights reserved.
+  </footer>
+</body>
+</html>

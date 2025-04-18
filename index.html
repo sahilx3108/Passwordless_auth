@@ -1,0 +1,88 @@
+<!-- index.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Home | Passwordless Auth</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-900 min-h-screen">
+<header class="bg-white shadow sticky top-0 z-50">
+<div class="container mx-auto px-4 py-6 flex justify-between items-center">
+<h1 class="text-2xl font-bold text-indigo-700">Passwordless Auth</h1>
+<nav class="space-x-4">
+  <a class="mx-2 text-blue-600 hover:underline" href="index.html">Home</a>
+  <a class="mx-2 text-blue-600 hover:underline" href="otp.html">OTP</a>
+  <a class="mx-2 text-blue-600 hover:underline" href="magic_link.html">Magic Link</a>
+  <a class="mx-2 text-blue-600 hover:underline" href="biometrics.html">Biometrics</a>
+  <a class="mx-2 text-blue-600 hover:underline" href="device_auth.html">Device Auth</a>
+  <a class="mx-2 text-blue-600 hover:underline" href="resources.html">Resources</a>
+  <a class="mx-2 text-blue-600 hover:underline" href="login.php">Login</a>
+</nav>
+</div>
+</header>
+
+<section class="mb-16 text-center">
+  <h2 class="text-3xl font-bold mb-8 text-indigo-700">Why Passwordless?</h2>
+  <div class="grid md:grid-cols-4 gap-6">
+    <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center">
+      <span class="text-4xl text-red-500 mb-2">🚫</span>
+      <p class="font-medium">No Password Fatigue</p>
+    </div>
+    <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center">
+      <span class="text-4xl text-yellow-500 mb-2">🔐</span>
+      <p class="font-medium text-center">More Secure (no password to steal)</p>
+    </div>
+    <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center">
+      <span class="text-4xl text-orange-500 mb-2">⚡</span>
+      <p class="font-medium">Fast & Easy Login</p>
+    </div>
+    <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center">
+      <span class="text-4xl text-indigo-500 mb-2">📱</span>
+      <p class="font-medium">Works on all devices</p>
+    </div>
+  </div>
+</section>
+
+<main class="container mx-auto px-4 py-16">
+<section class="mb-12 text-center">
+<h2 class="text-4xl font-bold mb-4 text-indigo-700">Types of Passwordless Authentication</h2>
+<p class="text-lg text-gray-700 max-w-2xl mx-auto">
+        There are several ways to log in without using traditional passwords, offering better security and a smoother user experience. These include OTPs, magic links, biometric data, and device-based authentication.
+      </p>
+</section>
+<section class="grid md:grid-cols-2 gap-8">
+<div class="bg-white shadow-lg rounded-2xl p-6 hover:bg-indigo-50 transition">
+<h3 class="text-2xl font-semibold mb-2 text-indigo-800">One-Time Password (OTP)</h3>
+<p>Use temporary codes sent via email or SMS to authenticate users. Learn how they work and when to use them.</p>
+<a class="text-indigo-600 font-semibold mt-2 inline-block" href="otp.html">Learn More →</a>
+</div>
+<div class="bg-white shadow-lg rounded-2xl p-6 hover:bg-indigo-50 transition">
+<h3 class="text-2xl font-semibold mb-2 text-indigo-800">Magic Link</h3>
+<p>Authenticate users through secure links sent to their email. No code needed—just click and go.</p>
+<a class="text-indigo-600 font-semibold mt-2 inline-block" href="magic_link.html">Learn More →</a>
+</div>
+<div class="bg-white shadow-lg rounded-2xl p-6 hover:bg-indigo-50 transition">
+<h3 class="text-2xl font-semibold mb-2 text-indigo-800">Biometric Authentication</h3>
+<p>Use fingerprint, face, or voice recognition to authenticate seamlessly and securely.</p>
+<a class="text-indigo-600 font-semibold mt-2 inline-block" href="biometrics.html">Learn More →</a>
+</div>
+<div class="bg-white shadow-lg rounded-2xl p-6 hover:bg-indigo-50 transition">
+<h3 class="text-2xl font-semibold mb-2 text-indigo-800">Device-Based Auth</h3>
+<p>Authenticate with hardware security keys or authenticator apps using WebAuthn and FIDO2 standards.</p>
+<a class="text-indigo-600 font-semibold mt-2 inline-block" href="device_auth.html">Learn More →</a>
+</div>
+</section>
+<section class="mt-16 text-center">
+<h2 class="text-3xl font-bold mb-4 text-indigo-700">Login Without Passwords</h2>
+<p class="text-lg text-gray-600 mb-6 max-w-xl mx-auto">Experience a simpler, safer way to access your account using secure magic links.</p>
+<a class="bg-indigo-600 text-white px-6 py-3 rounded-md shadow hover:bg-indigo-700 font-semibold" href="magic_link.html">Get Started</a>
+</section>
+</main>
+<footer class="bg-white border-t mt-12 py-6 text-center text-sm text-gray-500">
+    © 2025 Passwordless Auth. All rights reserved.
+  </footer>
+</body>
+</html>
