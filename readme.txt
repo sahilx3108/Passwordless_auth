@@ -8,7 +8,7 @@ How to run the User Registration With Email OTP Verification Using PHP
 
 4.Open PHPMyAdmin (http://localhost/phpmyadmin)
 
-5.Create a database with name regdb
+5.Create a database with name emailotpverification
 
 6.Import emailoptverification.sql file(given inside the zip package in SQL file folder)
 
