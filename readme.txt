@@ -12,6 +12,6 @@ How to run the User Registration With Email OTP Verification Using PHP
 
 6.Import emailoptverification.sql file(given inside the zip package in SQL file folder)
 
-7.Run the script http://localhost/emailotpverification
+7.Run the script http://localhost/passwordless_auth
 
 
