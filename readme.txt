@@ -2,7 +2,7 @@ How to run the User Registration With Email OTP Verification Using PHP
 
 1.Download the zip file
 
-2.Extract the file and copy emailotpverification folder
+2.Extract the file and copy passwordless_auth folder
 
 3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
 
